@@ -13,11 +13,12 @@
             justify-content: space-between;
             align-items: center;
             padding: 0 20px;
+           
         }
         .left, .right {
             display: flex;
             align-items: center;
-            flex: 1;
+            
         }
         .left {
             justify-content: flex-start;
@@ -34,6 +35,88 @@
             align-items: center;
             flex: 0;
         }
+        .name{
+            color:#604020;
+            font-size: 35px;
+            text-align: center;
+            
+        }
+        .heading{
+            background-color: #f5f5dc;
+            width: 97.5%;
+            height: 500px;
+            padding: 0 20px;
+            display: flex;
+            justify-content: center; 
+            flex-wrap: wrap;
+        }
+        .sub-heading{
+            color:#604020;
+            font-size: 28px;
+        }
+        .bullet-points{
+            padding: 0 20px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .car1{
+            background-color:#f5f5dc ;
+        margin:  10px 10px;
+        padding: 10px 10px;
+        display: inline-block;
+        border: 3px solid black;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        }
+        .car2{
+            background-color:#f5f5dc ;
+        margin:  10px 10px;
+        padding: 10px 10px;
+        display: inline-block;
+        border: 3px solid black;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row-reverse;
+
+        }
+        .car3{
+            background-color:#f5f5dc ;
+        margin:  10px 10px;
+        padding: 10px 10px;
+        display: inline-block;
+        border: 3px solid black;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+
+        }
+        .column{
+            background-color:#f5f5dc ;
+        margin:  10px 10px;
+        padding: 10px 10px;
+        display: flex;
+        border: 3px solid black;
+        border-radius: 3px;
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: 1050px;
+        justify-content: space-around;
+        }
+        .other{
+            background-color:#f5f5dc ;
+        margin:  9px 9px;
+        padding: 5px 5px;
+        display: flex;
+        border: 3px solid black;
+        border-radius: 3px;
+        display: flex;
+        flex-direction: column-reverse;
+        width: 320px;
+        height: 1070px;
+        justify-content: space-evenly;
+        }
     </style>
 </head>
 <body>
@@ -43,7 +126,7 @@
             <a href="mailto:pratiksha3754@gmail.com"> <img src="mail.png" height="70px" width="90px" alt="Mail"/> pratiksha3754@gmail.com</a>
         </div>
         <div class="logo">
-            <img src="logo.jpg" height="100px" width="100px" alt="logo"/>
+            <img src="logo.jpg" height="100px" width="100px" alt="logo"/><br/>
         </div>
         <div class="right">
             <a href="#" target="_blank"><img src="fb.jpeg" height="70px" width="90px" alt="Facebook"/></a>
@@ -51,6 +134,9 @@
             <a href="#" target="_blank"><img src="yt.jpeg" height="70px" width="90px" alt="YouTube"/></a>
         </div>
     </div>
+    
+        <h1 class="name">Vintage Car Collection</h1>
+    
     <div>
         <video 
     controls
@@ -60,7 +146,64 @@
     poster="poster-video.jpeg">
        <source src ="car video.mp4" 
        type="video/mp4"/>
-    </video>
+    </video><br/><br/>
+    </div>
+    <div class="heading"><br/>
+        <div><span class="sub-heading">Nostalgic Journeys: Discover Our Classic Car Collection</span><br/><br/>
+            <span>
+                Step into a world where nostalgia meets craftsmanship with our exquisite vintage car collection. Each vehicle in this carefully curated assortment represents a unique chapter in automotive history, showcasing the timeless elegance and innovative spirit of classic cars.<br/><br/>
+                From the sleek lines of the 1950s American muscle cars to the sophisticated curves of European roadsters, our collection highlights the artistry and engineering prowess of bygone eras. Each car has been meticulously restored to preserve its original charm while ensuring it remains roadworthy, allowing enthusiasts to experience the thrill of driving a piece of history.<br/><br/>
+                Our collection features iconic brands such as Ford, Chevrolet, and Mercedes-Benz, each with its own story and character. Whether you’re a passionate collector or a casual admirer, these vintage cars evoke a sense of adventure and romance, reminding us of the open roads and journeys taken long ago.
+                <br/></span></div>
+        <div><span class="bullet-points">
+            <b><ul type="square"></b>
+                <li><b>Timeless Elegance:</b> Experience the classic designs and craftsmanship that define the beauty of vintage automobiles.</li>
+                <li><b>Historical Significance:</b> Each car represents a significant era in automotive history, showcasing the evolution of design and technology.</li>
+                <li><b>Collector's Dream:</b> Perfect for enthusiasts and collectors looking to own a piece of automotive history.</li>
+                <li><b>Showcase of Artistry:</b> Celebrate the artistry and engineering excellence that make vintage cars a beloved choice among car aficionados.</li>
+                </ul>
+        </span></div>
+            </div>
+            <div class="car1">
+                <img src="1982 CHEVROLET.jpg" height="300px" width="300px"/>
+                <p>1982 CHEVROLET EL CAMINO SS</p>
+            </div>
+        <div class="car2">
+            <img src="Mercedes-Benz.jpg" height="300px" width="300px"/>
+            <p>1969 Mercedes-Benz 280SL</p>
+        </div>
+        <div class="car3">
+            <img src="ford model.webp" height="300px" width="300px"/>
+            <p>1930 Ford Model</p>
+        </div>
+    <div class="column">
+        <div >
+            <img src="Pontiac Firebird.jpg" height="300px" width="300px"/>
+            <p>1979 Pontiac Firebird Trans AM</p>
+        </div>
+        <div >
+            <img src="ford pickup.jpg" height="300px" width="300px"/>
+            <p>1930 Ford Pickup</p>
+        </div>
+        <div >
+            <img src="Ford Thunderbird.jpg" height="300px" width="300px"/>
+            <p>1964 Ford Thunderbird Convertible</p>
+        </div>
+        </div>
+        <div class="other">
+            <div >
+                <img src="car1.jpeg" height="300px" width="300px"/>
+                <p>Car 1</p>
+            </div>
+            <div >
+                <img src="car2.jpg.crdownload" height="300px" width="300px"/>
+                <p>Car 2</p>
+            </div>
+            <div >
+                <img src="car3.jpg.crdownload" height="300px" width="300px"/>
+                <p>Car 3</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
