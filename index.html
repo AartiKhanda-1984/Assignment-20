@@ -5,10 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 20</title>
     <style>
-        
+        .navbar {
+            background-color: #f5f5dc;
+            width: 97.5%;
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .left, .right {
+            display: flex;
+            align-items: center;
+            flex: 1;
+        }
+        .left {
+            justify-content: flex-start;
+        }
+        .right {
+            justify-content: flex-end;
+        }
+        .left a, .right a {
+            margin: 0 20px;
+        }
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 0;
+        }
     </style>
 </head>
 <body>
-    
+    <div class="navbar">
+        <div class="left">
+            <a href="Tel:9881748878" ><img src="call.png" height="70px" width="90px" alt="Call"/></a>
+            <a href="mailto:pratiksha3754@gmail.com"> <img src="mail.png" height="70px" width="90px" alt="Mail"/> pratiksha3754@gmail.com</a>
+        </div>
+        <div class="logo">
+            <img src="logo.jpg" height="100px" width="100px" alt="logo"/>
+        </div>
+        <div class="right">
+            <a href="#" target="_blank"><img src="fb.jpeg" height="70px" width="90px" alt="Facebook"/></a>
+            <a href="#" target="_blank"><img src="insta.webp" height="70px" width="90px" alt="Instagram"/></a>
+            <a href="#" target="_blank"><img src="yt.jpeg" height="70px" width="90px" alt="YouTube"/></a>
+        </div>
+    </div>
+    <div>
+        <video 
+    controls
+    loop
+    height="500px" 
+    width="97.5%"
+    poster="poster-video.jpeg">
+       <source src ="car video.mp4" 
+       type="video/mp4"/>
+    </video>
+    </div>
 </body>
 </html>
